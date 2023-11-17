@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Happy Birthday!</title>
+    <style>
+      /* CSS styles for the card */
+      body {
+        background-image: url("https://cdn.pixabay.com/photo/2016/11/22/21/42/adult-1850261_1280.jpg");
+        background-size: cover;
+        font-family: 'Pacifico', cursive;
+        color: #fff;
+      }
+      
+      #card {
+        background-color: rgba(255, 255, 255, 0.8);
+        width: 500px;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: 50px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+        text-align: center;
+        padding-top: 50px;
+      }
+      
+      #message {
+        margin-top: 50px;
+        font-size: 48px;
+        font-weight: bold;
+        text-shadow: 2px 2px #ff9999;
+      }
+      
+      #name {
+        margin-top: 30px;
+        font-size: 72px;
+        font-weight: bold;
+        color: #ff9999;
+        text-shadow: 2px 2px #fff;
+      }
+      
+      #cake {
+        margin-top: 30px;
+        width: 200px;
+        transition: transform 0.5s ease-in-out;
+      }
+      
+      /* CSS styles for the spinning animation */
+      #cake:hover {
+        transform: rotate(360deg);
+      }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="card">
+      <h1 id="message">Happy Birthday!</h1>
+      <h2 id="name">Shoury</h2>
+      <img id="cake" src="cake.jpg" alt="Cake">
+    </div>
+  </body>
+</html>
